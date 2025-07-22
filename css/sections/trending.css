@@ -1,5 +1,6 @@
 .trending {
   position: relative;
+
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -10,11 +11,14 @@
   top: 44%;
   left: 44%;
   z-index: 1;
+
   width: 160px;
   height: 160px;
+
   border-radius: 100%;
   background-color: var(--secondary-color);
   cursor: pointer;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,14 +28,16 @@
   font-size: 18px;
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
+
   text-transform: uppercase;
   color: #fff;
 }
 
 .trending-sushi,
-.trending-drinks {
+.trending-drink {
   width: 100%;
   min-height: 640px;
+
   display: flex;
   flex-direction: row;
 }
@@ -41,11 +47,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+
   padding: 32px 64px;
 }
 
 .trending__list {
   list-style: none;
+
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -56,12 +64,14 @@
   align-items: center;
   flex-direction: row;
   gap: 12px;
+
   min-width: 210px;
 }
 
 .trending__icon {
   width: 24px;
   height: 24px;
+
   border-radius: 100%;
   background-color: var(--primary-color);
 }
@@ -77,13 +87,16 @@
   font-size: 16px;
   font-weight: 500;
   font-family: var(--plus-jakarta-sans);
+
   color: var(--secondary-color);
 }
 
 .trending__image {
   flex: 1;
+
   position: relative;
   padding: 32px 64px;
+
   background-color: var(--color-white);
   background-repeat: no-repeat;
   background-size: contain;
